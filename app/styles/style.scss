@@ -1,0 +1,25 @@
+@import "partials/vars";
+@import "../../node_modules/normalize.css/normalize";
+@import "partials/html5bp";
+@import "../../node_modules/bourbon/app/assets/stylesheets/_bourbon";
+@import "../../node_modules/bourbon-neat/app/assets/stylesheets/_neat";
+@import "partials/custom_fonts";
+
+body {
+    background: whitesmoke;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.branding {
+    margin: 0 auto 3rem;
+    display: block;
+    width: 15rem;
+}
+
+@import "partials/print";
