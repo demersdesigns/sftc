@@ -1,0 +1,61 @@
+{
+    "project_logo": "/images/starfun-logo.png",
+    "project_favicon": "favicon.png",
+    "project_name": "StarFun Theater Camp",
+    "project_url": "starfuntheatercamp.com",
+    "copyright_start_year": "2016",
+    "client_name": null,
+    "client_url": null,
+    "creators": [
+        {
+            "name": "Paul Demers",
+            "url": "demersdesigns.com"
+        }
+    ],
+    "theme": {
+        "border_color": "#444444",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#008881",
+        "background_color": "#f2f2f2",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": false,
+        "show_version": false,
+        "max_width": null
+    },
+    "assets": {
+        "css": ["/styles/style.css"],
+        "js": []
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "type",
+            "title": "Type",
+            "components": [
+                {
+                    "group": "type",
+                    "name": "headlines",
+                    "title": "Headlines"
+                }
+            ]
+        }
+    ],
+    "version": "1.6.3"
+}

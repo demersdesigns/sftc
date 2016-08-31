@@ -29,7 +29,8 @@ var rootPath    = 'app/',
     scriptsSource = 'app/scripts/**/*.js',
     imagesSource = 'app/images/**/*',
     tmpImagesSource = '.tmp/images/**/*',
-    fontsSource = 'app/fonts/**/*';
+    fontsSource = 'app/fonts/**/*',
+    patternLibrarySource = 'app/pattern-library/**/*';
 
 //** Dev Task **//
 //Compile HTML includes and copy to tmp folder
@@ -113,6 +114,7 @@ gulp.task('dev', ['dev:build', 'dev:serve'], function () {
     gulp.watch(stylesSource, ['styles']);
     gulp.watch(scriptsSource, ['jshint']);
     gulp.watch(imagesSource, ['copyImages']);
+    gulp.watch(patternLibrarySource, []);
 });
 
 //** Production Tasks **//
